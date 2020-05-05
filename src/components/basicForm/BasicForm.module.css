@@ -1,0 +1,44 @@
+.form {
+    padding: 20px 20px;
+    border: 1px solid rgba(31, 62, 129, 0.692);
+    margin-bottom: 20px;
+}
+
+.textField,
+.passField {
+    width: 100%;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ccc;
+    color: #09165f;
+    background: url(../../assets/images/icons/user.png);
+    background-position: 6px;
+    background-repeat: no-repeat;
+    background-size: 4%;
+    padding-left: 40px;
+    margin-bottom: 16px;
+    letter-spacing: 1.1px;
+}
+
+.passField {
+    background: url(../../assets/images/icons/password.png);
+    background-position: 6px;
+    background-repeat: no-repeat;
+    background-size: 4%;
+}
+
+.btnForEntry {
+    border: none;
+    width: 100%;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: rgba(31, 62, 129, 0.692);
+    color: #ebebeb;
+    font-weight: 500;
+    cursor: pointer;
+}

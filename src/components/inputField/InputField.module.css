@@ -1,0 +1,64 @@
+.form {
+    padding: 20px 20px;
+    border: 1px solid rgba(31, 62, 129, 0.692);
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    color: #09165f;
+    padding-left: 20px;
+    letter-spacing: 1.1px;
+    text-transform: capitalize;
+    outline: none;
+    background-color: #f1e4ca;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #05056b;
+    margin-bottom: 20px;
+}
+
+.select {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.selectList {
+    margin: 0px 10px;
+    font-weight: 500;
+}
+
+.btnForSelect {
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 50%;
+    background: url(../../assets/images/icons/submit.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    outline: none;
+}
+
+.formForSelect {
+    padding: 20px 20px;
+    border: 1px solid rgba(31, 62, 129, 0.692);
+    margin-bottom: 20px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
